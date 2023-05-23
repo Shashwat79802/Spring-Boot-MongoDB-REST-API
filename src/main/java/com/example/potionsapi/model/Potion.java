@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.UUID;
 
-@Document(collection = "PotionsDB")
+@Document(collection = "YOUR_COLLECTION_NAME")
 public class Potion {
 
     @Id
