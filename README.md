@@ -38,3 +38,20 @@ Follow the steps to start the application -
  Now go to the directory ```src/main/java/com/example/potionsapi``` and open the file ```PotionsApoApplication.java``` in an IDE and execute the file.
  
  The server is started to run on http://localhost:8080
+ 
+ You can try experimenting with the data given in `potions.json` file by taking the data of each potion individually and posting it to the database, and then try getting it back again.
+
+### About the API
+
+The API has 5 endpoints - <br>
+a. Get `/potions` - Gets the data of all the potions stored in the bank. <br>
+b. Get `/potions/{id}` - Gets the data of the potion by its Id. <br>
+c. Post `/potions` - Posts the data of the potion to the DB. <br>
+d. Put `/potions/{id}` - Updates the data of the potion specified by its id. <br>
+e. Delete `/potions/{id}` - Deletes the data of the potion specified by its id. <br>
+<br><br>
+The potions data should have the following attributes - <br>
+a. name - Holds the name of the potion. `String` <br>
+b. description - Holds the details of what the potions does. `String` <br>
+c. bottle - Specify the number of bottles. `Int` <br>
+d. quantity - Holds the total amount of potion the bank has in total. `Int` <br>
