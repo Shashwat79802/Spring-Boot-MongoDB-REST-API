@@ -30,12 +30,10 @@
             <artifactId>jakarta.validation-api</artifactId>
             <version>3.0.2</version>
         </dependency>
-<<<<<<< Updated upstream
 <!--         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-started-validation</artifactId>
         </dependency> -->
-=======
         <dependency>
             <groupId>io.keploy</groupId>
             <artifactId>keploy-sdk</artifactId>
@@ -57,7 +55,6 @@
             <version>4.0.1
             </version>
         </dependency>
->>>>>>> Stashed changes
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web-services</artifactId>
