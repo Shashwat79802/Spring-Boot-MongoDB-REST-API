@@ -1,5 +1,7 @@
 package com.example.potionsapi.model;
 
+import io.github.cdimascio.dotenv.Dotenv;
+
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import jakarta.validation.constraints.Max;
