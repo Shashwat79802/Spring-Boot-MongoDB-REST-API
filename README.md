@@ -46,7 +46,7 @@ Follow the steps to start the application -
 The API has 5 endpoints - <br>
 a. Get `/potions` - Gets the data of all the potions stored in the bank. <br>
 b. Get `/potions/{id}` - Gets the data of the potion by its Id. <br>
-c. Post `/potions` - Posts the data of the potion to the DB. <br>
+c. Post `/potions` - Creates the data of the potion to the DB. <br>
 d. Put `/potions/{id}` - Updates the data of the potion specified by its id. <br>
 e. Delete `/potions/{id}` - Deletes the data of the potion specified by its id. <br>
 <br><br>
